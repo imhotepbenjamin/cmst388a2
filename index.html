@@ -10,7 +10,8 @@
 
 <!-- The form element with an ID for easy reference -->
 <form id="contactForm">
-
+  <img src = "img/updnlogo.jpg" alt = "UPDN Logo" id="updnLogo">
+  <h1>Contact Form</h1>
   <!-- Name Section -->
     <div id="firstLastNameSection" class = "row">
         <label for="firstName">First Name:</label>
@@ -19,6 +20,15 @@
         <label for="lastName">Last Name:</label>
         <input type="text" class="no-arrows" id="lastName" placeholder="Enter Last Name" required>
         <span id="lastNameError" class="error"></span>
+    </div>
+    <div id="ageWeightSection" class="row">
+        <label for="age">Age:</label>
+        <input type="number" class="no-arrows" id="age" placeholder="Enter Age" required>
+        <span id="ageError" class="error"></span>
+
+        <label for="weight">Weight:</label>
+        <input type="number" class="no-arrows" id="weight" placeholder="Enter Weight" required>
+        <span id="weightError" class="error"></span>
     </div>
   
 

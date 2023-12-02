@@ -28,6 +28,14 @@ body{
     padding: 0;
     margin: 1%;
 }
+#updnLogo{
+    width: clamp(10%, 20%, 500px);
+    border-radius: 50%;
+    margin-bottom: 1%;
+}
+h1{
+  margin-bottom: 1%;
+}
 label{
 font-size: 100%;
 }
